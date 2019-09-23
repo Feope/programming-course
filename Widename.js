@@ -23,7 +23,7 @@ const  array_of_morse_codes  =
 
 process.stdout.write( "\n Please, type in your name: " ) ;
 
-process.stdin.on( "data", function( input_from_user )
+process.stdin.on( "data", function( input_from_user ) // random text
 {
    // When we take the string from the user input, we need to
    // use the trim() method to get rid of line termination characters.
